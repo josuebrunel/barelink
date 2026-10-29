@@ -10,7 +10,9 @@
     "https://*.x.com/*",
     "https://*.twitter.com/*",
     "https://*.youtube.com/*",
-    "https://*.youtu.be/*"
+    "https://*.youtu.be/*",
+    "https://*.reddit.com/*",
+    "https://*.redd.it/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
@@ -27,7 +29,9 @@
         "https://*.x.com/*",
         "https://*.twitter.com/*",
         "https://*.youtube.com/*",
-        "https://*.youtu.be/*"
+        "https://*.youtu.be/*",
+        "https://*.reddit.com/*",
+        "https://*.redd.it/*"
       ],
       "js": [
         "clean.js",

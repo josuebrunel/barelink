@@ -47,5 +47,34 @@
         "main_frame"
       ]
     }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "share_id",
+              "ref",
+              "ref_source"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:reddit\\.com|redd\\.it)[^#]*[?&](?:utm_source|utm_medium|utm_campaign|utm_term|utm_content|share_id|ref|ref_source)=",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 ]

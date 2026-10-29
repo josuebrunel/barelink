@@ -16,6 +16,11 @@ const BareLink = (() => {
       hosts: ["youtube.com", "youtu.be"],
       params: ["si", "feature", "pp"],
     },
+    {
+      name: "reddit",
+      hosts: ["reddit.com", "redd.it"],
+      params: [...UTM, "share_id", "ref", "ref_source"],
+    },
   ];
 
   const URL_PATTERN = /https?:\/\/[^\s]+/g;
