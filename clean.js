@@ -29,7 +29,7 @@ const BareLink = (() => {
     {
       name: "instagram",
       hosts: ["instagram.com"],
-      params: ["igsh", "igshid", "utm_source"],
+      params: ["igsh", "igshid", "utm_source", "mdxt", "rpxt"],
     },
     {
       name: "threads",

@@ -11,7 +11,7 @@ It cleans links on these platforms:
 | Reddit | `reddit.com`, `redd.it` | `utm_*`, `share_id`, `ref`, `ref_source` |
 | Bluesky | `bsky.app` | `utm_*` |
 | Facebook | `facebook.com`, `fb.watch` | `fbclid`, `mibextid`, `ref`, `__tn__`, `__cft__[0]` |
-| Instagram | `instagram.com` | `igsh`, `igshid`, `utm_source` |
+| Instagram | `instagram.com` | `igsh`, `igshid`, `utm_source`, `mdxt`, `rpxt` |
 | Threads | `threads.net`, `threads.com` | `xmt`, `slof`, `igshid` |
 
 Params that change what you see (YouTube `t`, Reddit `context`, Facebook `id`) are kept.

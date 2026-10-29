@@ -12,6 +12,8 @@ const cases = [
   ["https://www.reddit.com/r/go/comments/1/x/?utm_source=share&utm_medium=web&share_id=q", "https://www.reddit.com/r/go/comments/1/x/"],
   ["https://www.facebook.com/story.php?story_fbid=1&id=2&mibextid=abc", "https://www.facebook.com/story.php?story_fbid=1&id=2"],
   ["https://www.instagram.com/p/Abc/?igsh=xyz", "https://www.instagram.com/p/Abc/"],
+  ["https://www.instagram.com/reel/DeQk8RSgfY6/?mdxt=NTc4MTIwNjQ2YQ%3D%3D", "https://www.instagram.com/reel/DeQk8RSgfY6/"],
+  ["https://www.instagram.com/reel/DeQk8RSgfY6/?rpxt=NTc4MTIwNjQ2YQ%3D%3D", "https://www.instagram.com/reel/DeQk8RSgfY6/"],
   ["https://www.threads.net/@u/post/Abc?xmt=1&slof=1", "https://www.threads.net/@u/post/Abc"],
   ["https://bsky.app/profile/a.bsky.social/post/3k?utm_source=x", "https://bsky.app/profile/a.bsky.social/post/3k"],
   ["https://example.com/a?s=1", "https://example.com/a?s=1"],

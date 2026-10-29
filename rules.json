@@ -115,14 +115,16 @@
             "removeParams": [
               "igsh",
               "igshid",
-              "utm_source"
+              "utm_source",
+              "mdxt",
+              "rpxt"
             ]
           }
         }
       }
     },
     "condition": {
-      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:instagram\\.com)[^#]*[?&](?:igsh|igshid|utm_source)=",
+      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:instagram\\.com)[^#]*[?&](?:igsh|igshid|utm_source|mdxt|rpxt)=",
       "resourceTypes": [
         "main_frame"
       ]
