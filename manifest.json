@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Barelink",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Strips tracking parameters from links you copy, share or open on X, YouTube, Reddit, Bluesky, Facebook, Instagram and Threads.",
   "permissions": [
     "declarativeNetRequest"
