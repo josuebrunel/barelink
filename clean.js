@@ -9,7 +9,7 @@ const BareLink = (() => {
       name: "x",
       hosts: ["x.com", "twitter.com"],
       path: "^/[^/?#]+/status/[0-9]+",
-      params: ["s", "t", "ref_src", "ref_url"],
+      params: ["s", "t", "a", "ref_src", "ref_url"],
     },
     {
       name: "youtube",

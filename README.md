@@ -6,7 +6,7 @@ It cleans links on these platforms:
 
 | Platform | Hosts | Stripped params |
 |---|---|---|
-| X / Twitter | `x.com`, `twitter.com` (status links) | `s`, `t`, `ref_src`, `ref_url` |
+| X / Twitter | `x.com`, `twitter.com` (status links) | `s`, `t`, `a`, `ref_src`, `ref_url` |
 | YouTube | `youtube.com`, `youtu.be` | `si`, `feature`, `pp` |
 | Reddit | `reddit.com`, `redd.it` | `utm_*`, `share_id`, `ref`, `ref_source` |
 | Bluesky | `bsky.app` | `utm_*` |

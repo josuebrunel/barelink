@@ -10,6 +10,7 @@
             "removeParams": [
               "s",
               "t",
+              "a",
               "ref_src",
               "ref_url"
             ]
@@ -18,7 +19,7 @@
       }
     },
     "condition": {
-      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:x\\.com|twitter\\.com)/[^/?#]+/status/[0-9]+[^#]*[?&](?:s|t|ref_src|ref_url)=",
+      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:x\\.com|twitter\\.com)/[^/?#]+/status/[0-9]+[^#]*[?&](?:s|t|a|ref_src|ref_url)=",
       "resourceTypes": [
         "main_frame"
       ]
