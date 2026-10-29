@@ -126,5 +126,29 @@
         "main_frame"
       ]
     }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "xmt",
+              "slof",
+              "igshid"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:threads\\.net|threads\\.com)[^#]*[?&](?:xmt|slof|igshid)=",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 ]

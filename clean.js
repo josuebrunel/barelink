@@ -31,6 +31,11 @@ const BareLink = (() => {
       hosts: ["instagram.com"],
       params: ["igsh", "igshid", "utm_source"],
     },
+    {
+      name: "threads",
+      hosts: ["threads.net", "threads.com"],
+      params: ["xmt", "slof", "igshid"],
+    },
   ];
 
   const URL_PATTERN = /https?:\/\/[^\s]+/g;
