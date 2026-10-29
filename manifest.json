@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Barelink",
-  "version": "0.2.1",
-  "description": "Strips tracking parameters from links you copy, share or open on X, YouTube, Reddit, Bluesky, Facebook, Instagram and Threads.",
+  "version": "0.2.2",
+  "description": "Removes tracking parameters from the links you copy, share or open on social media, so you share the bare link.",
   "permissions": [
     "declarativeNetRequest"
   ],

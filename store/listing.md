@@ -2,18 +2,16 @@
 
 **Name:** Barelink
 **Category:** Productivity (or Privacy & Security)
-**Summary (132 max):** Strips tracking params from links you copy, share or open on X, YouTube, Reddit, Instagram, Facebook, Threads and Bluesky.
+**Summary (132 max):** Removes tracking parameters from the links you copy, share or open on social media, so you share the bare link.
 
 ## Description
-Ever notice how a shared link grows a tail like `?s=20&t=Ab12` or `?si=...&igsh=...`? Those parameters tell the platform who shared the link and who clicked it. Barelink removes them.
+Shared links often grow a tail like `?s=20&t=Ab12` or `?si=...`. Those parameters tell the platform who shared the link and who clicked it. Barelink removes them.
 
-When you click Copy link or Share, or paste a tracked link and open it, Barelink gives you the bare URL, nothing else.
-
-Supported: X/Twitter, YouTube, Reddit, Instagram, Facebook, Threads, Bluesky.
+When you click Copy link or Share, or open a link that carries tracking parameters, Barelink gives you the plain URL and nothing else.
 
 - Works silently, no buttons or settings.
-- Keeps params that matter (YouTube timestamps, Facebook post ids).
-- No data collected, no network requests, no accounts. Open source: https://github.com/josuebrunel/barelink
+- Keeps parameters that matter, like video timestamps.
+- Collects no data and makes no network requests. Open source: https://github.com/josuebrunel/barelink
 
 ## Single purpose
 Remove tracking parameters from links on supported social platforms.
