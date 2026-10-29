@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": { "queryTransform": { "removeParams": ["s", "t", "ref_src", "ref_url"] } }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(x|twitter)\\.com/[^/?#]+/status/[0-9]+.*[?&](s|t|ref_src|ref_url)=",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
