@@ -21,6 +21,11 @@ const BareLink = (() => {
       hosts: ["reddit.com", "redd.it"],
       params: [...UTM, "share_id", "ref", "ref_source"],
     },
+    {
+      name: "facebook",
+      hosts: ["facebook.com", "fb.watch"],
+      params: ["fbclid", "mibextid", "ref", "__tn__", "__cft__[0]"],
+    },
   ];
 
   const URL_PATTERN = /https?:\/\/[^\s]+/g;
