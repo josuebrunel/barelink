@@ -11,6 +11,11 @@ const BareLink = (() => {
       path: "^/[^/?#]+/status/[0-9]+",
       params: ["s", "t", "ref_src", "ref_url"],
     },
+    {
+      name: "youtube",
+      hosts: ["youtube.com", "youtu.be"],
+      params: ["si", "feature", "pp"],
+    },
   ];
 
   const URL_PATTERN = /https?:\/\/[^\s]+/g;

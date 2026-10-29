@@ -8,7 +8,9 @@
   ],
   "host_permissions": [
     "https://*.x.com/*",
-    "https://*.twitter.com/*"
+    "https://*.twitter.com/*",
+    "https://*.youtube.com/*",
+    "https://*.youtu.be/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
@@ -23,7 +25,9 @@
     {
       "matches": [
         "https://*.x.com/*",
-        "https://*.twitter.com/*"
+        "https://*.twitter.com/*",
+        "https://*.youtube.com/*",
+        "https://*.youtu.be/*"
       ],
       "js": [
         "clean.js",

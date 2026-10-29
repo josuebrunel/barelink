@@ -23,5 +23,29 @@
         "main_frame"
       ]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "si",
+              "feature",
+              "pp"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:youtube\\.com|youtu\\.be)[^#]*[?&](?:si|feature|pp)=",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 ]

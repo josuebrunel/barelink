@@ -7,6 +7,7 @@ const cases = [
   ["https://twitter.com/user/status/123?s=20&ref_src=twsrc", "https://twitter.com/user/status/123"],
   ["https://x.com/user/status/123?lang=en&s=20", "https://x.com/user/status/123?lang=en"],
   ["https://x.com/search?s=1&q=cats", "https://x.com/search?s=1&q=cats"],
+  ["https://youtu.be/abc123?si=XyZ&t=42", "https://youtu.be/abc123?t=42"],
   ["https://example.com/a?s=1", "https://example.com/a?s=1"],
 ];
 for (const [input, want] of cases) {
