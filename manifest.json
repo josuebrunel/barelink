@@ -17,7 +17,8 @@
     "https://*.fb.watch/*",
     "https://*.instagram.com/*",
     "https://*.threads.net/*",
-    "https://*.threads.com/*"
+    "https://*.threads.com/*",
+    "https://*.bsky.app/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
@@ -41,7 +42,8 @@
         "https://*.fb.watch/*",
         "https://*.instagram.com/*",
         "https://*.threads.net/*",
-        "https://*.threads.com/*"
+        "https://*.threads.com/*",
+        "https://*.bsky.app/*"
       ],
       "js": [
         "clean.js",

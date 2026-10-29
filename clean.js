@@ -36,6 +36,11 @@ const BareLink = (() => {
       hosts: ["threads.net", "threads.com"],
       params: ["xmt", "slof", "igshid"],
     },
+    {
+      name: "bluesky",
+      hosts: ["bsky.app"],
+      params: UTM,
+    },
   ];
 
   const URL_PATTERN = /https?:\/\/[^\s]+/g;
