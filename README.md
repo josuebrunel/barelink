@@ -1,3 +1,5 @@
+<p align="center"><img src="icons/logo.png" width="96" alt="Barelink logo"></p>
+
 # Barelink
 
 A small browser extension that strips tracking parameters from links you copy, share or open.
@@ -26,10 +28,27 @@ Params that change what you see (YouTube `t`, Reddit `context`, Facebook `id`) a
 
 Add an entry to `RULES` in `clean.js`, then run `node scripts/build.js` to regenerate `rules.json` and the manifest host lists. The tests fail if they drift.
 
-## Install (unpacked)
+## Install
+
+Chrome Web Store: coming soon (submitted for review).
+
+### Unpacked
 
 1. Open `chrome://extensions` and turn on Developer mode.
 2. Click "Load unpacked" and pick this folder.
+
+## Build the store package
+
+```
+node scripts/build.js
+zip -r dist/barelink-<version>.zip manifest.json clean.js content.js rules.json icons/icon-*.png
+```
+
+Store listing copy and assets live in `store/`.
+
+## Privacy
+
+Barelink collects no data and makes no network requests. See [PRIVACY.md](PRIVACY.md).
 
 ## Tests
 
