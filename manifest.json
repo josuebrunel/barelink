@@ -3,17 +3,32 @@
   "name": "Barelink",
   "version": "0.1.0",
   "description": "Strips X/Twitter share-tracking parameters (s, t) from links you copy, share or open.",
-  "permissions": ["declarativeNetRequest"],
-  "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://*.x.com/*",
+    "https://*.twitter.com/*"
+  ],
   "declarative_net_request": {
     "rule_resources": [
-      { "id": "strip_x", "enabled": true, "path": "rules.json" }
+      {
+        "id": "strip_x",
+        "enabled": true,
+        "path": "rules.json"
+      }
     ]
   },
   "content_scripts": [
     {
-      "matches": ["https://x.com/*", "https://twitter.com/*"],
-      "js": ["clean.js", "content.js"],
+      "matches": [
+        "https://*.x.com/*",
+        "https://*.twitter.com/*"
+      ],
+      "js": [
+        "clean.js",
+        "content.js"
+      ],
       "run_at": "document_start",
       "world": "MAIN"
     }
