@@ -14,7 +14,8 @@
     "https://*.reddit.com/*",
     "https://*.redd.it/*",
     "https://*.facebook.com/*",
-    "https://*.fb.watch/*"
+    "https://*.fb.watch/*",
+    "https://*.instagram.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
@@ -35,7 +36,8 @@
         "https://*.reddit.com/*",
         "https://*.redd.it/*",
         "https://*.facebook.com/*",
-        "https://*.fb.watch/*"
+        "https://*.fb.watch/*",
+        "https://*.instagram.com/*"
       ],
       "js": [
         "clean.js",

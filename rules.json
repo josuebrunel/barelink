@@ -102,5 +102,29 @@
         "main_frame"
       ]
     }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "igsh",
+              "igshid",
+              "utm_source"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(?:[^/?#]+\\.)?(?:instagram\\.com)[^#]*[?&](?:igsh|igshid|utm_source)=",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 ]

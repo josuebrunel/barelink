@@ -26,6 +26,11 @@ const BareLink = (() => {
       hosts: ["facebook.com", "fb.watch"],
       params: ["fbclid", "mibextid", "ref", "__tn__", "__cft__[0]"],
     },
+    {
+      name: "instagram",
+      hosts: ["instagram.com"],
+      params: ["igsh", "igshid", "utm_source"],
+    },
   ];
 
   const URL_PATTERN = /https?:\/\/[^\s]+/g;

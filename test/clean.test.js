@@ -10,6 +10,7 @@ const cases = [
   ["https://youtu.be/abc123?si=XyZ&t=42", "https://youtu.be/abc123?t=42"],
   ["https://www.reddit.com/r/go/comments/1/x/?utm_source=share&utm_medium=web&share_id=q", "https://www.reddit.com/r/go/comments/1/x/"],
   ["https://www.facebook.com/story.php?story_fbid=1\&id=2\&mibextid=abc", "https://www.facebook.com/story.php?story_fbid=1\&id=2"],
+  ["https://www.instagram.com/p/Abc/?igsh=xyz", "https://www.instagram.com/p/Abc/"],
   ["https://example.com/a?s=1", "https://example.com/a?s=1"],
 ];
 for (const [input, want] of cases) {
