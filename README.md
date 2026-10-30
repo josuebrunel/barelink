@@ -30,7 +30,7 @@ Add an entry to `RULES` in `clean.js`, then run `node scripts/build.js` to regen
 
 ## Install
 
-Chrome Web Store: coming soon (submitted for review).
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/barelink/jnjmlkdekcfchkcmdnoiaiopkmakoadd).
 
 ### Unpacked
 
